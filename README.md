@@ -1,7 +1,7 @@
 # Fab Process Simulator
 
 ## Project Overview
-This project is a simplified semiconductor fabrication process simulator designed to model and analyze key manufacturing steps such as plasma etching, deposition, and process variation. The goal is to provide an educational and practical tool for understanding how process parameters impact yield, uniformity, and throughput in a fab environment.
+This project implements a configuration-driven semiconductor fabrication process simulator that models wafer-level defect accumulation, process variability, and yield loss across a simplified multi-step fab workflow. The simulator represents key manufacturing steps using probabilistic defect generation and computes die yield using a Poisson-based yield model. The goal is to provide an educational yet engineering-grounded framework for analyzing yield degradation, process sensitivity, and manufacturing trade-offs in semiconductor fabrication.
 
 ## Features
 - Simulates basic fab process steps
